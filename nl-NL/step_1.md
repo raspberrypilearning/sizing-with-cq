@@ -1,13 +1,13 @@
-Container Query Height (cqh) are units that specify a size relative to the dimensions of an element's container element.
+Container Query Hoogte (cqh) zijn eenheden die een grootte ten opzichte van de afmetingen van een element ten opzichte van zijn container element aangeven.
 
-`1cqh` is 1% of the container's height. For example, if the container's height is 300px, then a value of `10cqh` on a property will be 30px.
+`1cqh` is 1% van de hoogte van de container. Bijvoorbeeld, als de hoogte van de container 300px is, dan zal een waarde `10cqh` op een eigenschap 30px zijn.
 
-One benefit of using `cqh` units rather than `px` (pixel units) for sizing elements is that elements will resize along with their container. This usually happens when you resize a browser window, or view a web page on a different screen.
+Een voordeel van het gebruiken van `cqh`-eenheden in plaats van `px` (pixeleenheden) voor het bepalen van de grootte van elementen, is dat de grootte van de elementen mee verandert met de grootte van hun container. Dit gebeurt meestal wanneer je het formaat van een browservenster wijzigt of een webpagina op een ander scherm bekijkt.
 
-Here is an example:
+Hier is een voorbeeld:
 
-![A gif showing font sizes changing when the browser changes height and width](images/cqh_cqw.gif)
+![Een gif die laat zien hoe de lettergrootte verandert wanneer de hoogte en breedte van de browser verandert](images/cqh_cqw.gif)
 
-In the example, the font size of the the main story text has been set to use `cqh`, so changes with the browser's height.
+In het voorbeeld is de lettergrootte van de hoofdtekst ingesteld op `cqh`, zodat deze verandert met de hoogte van de browser.
 
-The font size of the text in the nav bar has been set to use `cqw`, so changes with the browser's width.
+De lettergrootte van de tekst in de navigatiebalk is ingesteld op `cqw`, wat betekent dat deze verandert met de breedte van de browser.
