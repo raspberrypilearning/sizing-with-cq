@@ -1,13 +1,13 @@
-Container query height (cqh) and container query width (cqw) are units that specify a size relative to the dimensions of an element's container element.
+容器查询高度 (cqh) 和容器查询宽度 (cqw) 是指定相对于元素容器元素尺寸的大小的单位。
 
-`1cqh` is 1% of the container's height. For example, if the container's height is 300px, then a value of `10cqh` on a property will be 30px.
+`1cqh` 是容器高度的 1%。 例如，如果容器的高度为 300px，则属性上的值 `10cqh` 将为 30px。
 
-One benefit of using `cqh` units rather than `px` (pixel units) for sizing elements is that elements will resize along with their container. This usually happens when you resize a browser window, or view a webpage on a different screen.
+使用 `cqh` 单位而不是 `px`（像素单位）来调整元素大小的一个好处是元素将随其容器一起调整大小。 这通常发生在你调整浏览器窗口大小或在不同屏幕上查看网页时。
 
-Here is an example:
+下面是一个示例：
 
-![A gif showing font sizes changing when the browser changes height and width.](images/cqh_cqw.gif)
+![一张 gif 动图，显示浏览器改变高度和宽度时字体大小也随之变化。](images/cqh_cqw.gif)
 
-In the example, the font size of the the main story text has been set to use `cqh`, so it changes with the browser's height.
+在示例中，主要故事文本的字体大小已设置为使用 `cqh`，因此它会随着浏览器的高度而变化。
 
-The font size of the text in the navbar has been set to use `cqw`, so it changes with the browser's width.
+导航栏中文本的字体大小已设置为使用 `cqw`，因此它会随着浏览器的宽度而变化。
